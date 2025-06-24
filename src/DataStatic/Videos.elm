@@ -64,7 +64,23 @@ ryanAOC2024 =
 
 
 all_ =
-    [ { categories = [ ElmPhilosophy ]
+    [ { categories = [ ElmPhilosophy, Keynote ]
+      , description = "Language decisions are often made by non-technical founders, risk-averse managers, that one contractor who wrote the whole MVP in Ruby, etc. It may be true that languages like Elm, Haskell, and OCaml offer great technical advantages, but that just is not how the decisions are made. I argue that we must revise our adoption strategy to account for the perspective of the non-technical business person. I hope that this talk will save other language authors some time, and inspire renewed cooperation between companies that love Productivity Languages."
+      , event = EventUnknown "Lambda Days 2025"
+      , name = "Rethinking our Adoption Strategy"
+      , speaker = "Evan Czaplicki"
+      , url = "https://www.youtube.com/watch?v=YPAaUFGrlEE"
+      , year = "2025"
+      }
+    , { categories = [ ElmPhilosophy ]
+      , description = "Why are companies quietly using languages like Elm, OCaml, and Haskell? No development department gets in trouble for going with industry standard languages, but that also means there is sometimes space to gain a considerable advantage over your competetion through language selection. Drawing from notable success stories like Jane Street, Standard Chartered, Corvus, and Vendr, we will evaluate typed functional languages from a business perspective: What are the concrete business advantages gained by the companies using typed functional languages? When are these advantages likely (and unlikely) to translate to other businesses? And how can a business responsibly evaluate if the same advantages are available in their particular case?"
+      , event = EventUnknown "GOTO Copenhagen 2024"
+      , name = "A Decision Maker's Guide to Typed Functional Languages"
+      , speaker = "Evan Czaplicki"
+      , url = "https://www.youtube.com/watch?v=sl1UQXgtepE"
+      , year = "2024"
+      }
+    , { categories = [ ElmPhilosophy ]
       , description = "Evan Czaplicki—the creator of the Elm programming language —joins me to discuss the state and future of Elm, the friendly, type-safe functional programming language. On many fronts Elm has been a huge success: it’s been popular with new and seasoned programmers alike; it’s helped push several language ideas into the mainstream; it’s been a key part of several successful software businesses and he even found himself employed as a kind of Language Designer in Residence. And yet, the material rewards of a successful open-source project were…lacking. Was he naive? Can an open-source developer stay true to open-source principles and still make a decent living? Is open source being exploited by commercial software businesses? These topics and more tumble out of what has to be the first question in the podcast: What’s happening with Elm?"
       , event = EventUnknown ""
       , name = "Elm & The Future of Open Source"
