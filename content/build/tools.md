@@ -14,6 +14,7 @@ These external tools can enhance your development experience even further:
 **Tools for Elm:**
 
 - [elm-format](https://github.com/avh4/elm-format) - The community standard for formatting Elm code
+- [elm-watch](https://lydell.github.io/elm-watch/) - Recompiles whenever your Elm files change and reloads the compiled JS in the browser
 - [elm-test](https://github.com/rtfeldman/node-test-runner) - a CLI tool for running Elm tests (see also [elm-test-rs](https://github.com/mpizenberg/elm-test-rs))
 - [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/) - Analyzes Elm projects, to help find and fix mistakes before your users find them
 - [Elm Language Server](https://github.com/elm-tooling/elm-language-server) - Language server protocol implementation for Elm
