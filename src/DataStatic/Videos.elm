@@ -81,6 +81,14 @@ all_ =
       , year = "2024"
       }
     , { categories = [ ElmPhilosophy ]
+      , description = "A live interview of Evan by Kris Jenkins at GOTO Copenhagen 2024"
+      , event = EventUnknown "GOTO Copenhagen 2024"
+      , name = "Elm & Open Source: What's Next?"
+      , speaker = "Evan Czaplicki, Kris Jenkins"
+      , url = "https://www.youtube.com/watch?v=ABdpAjDDh-c"
+      , year = "2024"
+      }
+    , { categories = [ ElmPhilosophy ]
       , description = "Evan Czaplicki—the creator of the Elm programming language —joins me to discuss the state and future of Elm, the friendly, type-safe functional programming language. On many fronts Elm has been a huge success: it’s been popular with new and seasoned programmers alike; it’s helped push several language ideas into the mainstream; it’s been a key part of several successful software businesses and he even found himself employed as a kind of Language Designer in Residence. And yet, the material rewards of a successful open-source project were…lacking. Was he naive? Can an open-source developer stay true to open-source principles and still make a decent living? Is open source being exploited by commercial software businesses? These topics and more tumble out of what has to be the first question in the podcast: What’s happening with Elm?"
       , event = EventUnknown ""
       , name = "Elm & The Future of Open Source"
